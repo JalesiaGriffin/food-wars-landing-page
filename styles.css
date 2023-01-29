@@ -189,3 +189,46 @@ button {
     justify-content: flex-end;
 }
 
+.cta-container {
+    display: flex;
+    background-color: #F9faf8;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.cta {
+    display: flex;
+    background-color: #3882f6;
+    color: #F9faf8;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 16px 16px;
+    gap: 96px;
+    border-radius: 16px;
+}
+
+.cta-text,
+.cta-button {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+}
+
+.bold-text {
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.light-text {
+    font-weight: 200;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    padding: 36px;
+    color: #F9faf8;
+    justify-content: center;
+    align-items: center;
+}
